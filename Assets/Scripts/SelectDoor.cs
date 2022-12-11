@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SelectKey : MonoBehaviour
+public class SelectDoor : MonoBehaviour
 {
-    [SerializeField] private Animator Chest_Lid;
+    [SerializeField] private Animator Door_open;
     [SerializeField] private GameObject key;
     // Start is called before the first frame update
     void Start()
@@ -16,8 +16,8 @@ public class SelectKey : MonoBehaviour
     public void SelectMe()
     {
         GameObject.Destroy(key);
-        Chest_Lid.Play("Chest_Open", 0, 0.0f);
-        Debug.Log("KEY SELECTED");
+        Door_open.Play("Door_Open", 0, 0.0f);
+        Debug.Log("Door SELECTED");
 
     }
 

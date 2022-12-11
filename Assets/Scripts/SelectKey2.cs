@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SelectKey : MonoBehaviour
+public class SelectKey2 : MonoBehaviour
 {
     [SerializeField] private Animator Chest_Lid;
     [SerializeField] private GameObject key;
@@ -16,7 +16,7 @@ public class SelectKey : MonoBehaviour
     public void SelectMe()
     {
         GameObject.Destroy(key);
-        Chest_Lid.Play("Chest_Open", 0, 0.0f);
+        Chest_Lid.Play("doorOpen", 0, 0.0f);
         Debug.Log("KEY SELECTED");
 
     }

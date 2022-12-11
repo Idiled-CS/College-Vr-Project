@@ -11385,10 +11385,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1431382363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54129e42262db4d6286d52c5f5c0990b, type: 3}
+  m_Script: {fileID: 11500000, guid: bb45ed784359145adb0aea3ad6210d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorAnimation: {fileID: 1456707638}
+  Chest_Lid: {fileID: 1456707638}
   key: {fileID: 1431382363}
 --- !u!114 &1431382366
 MonoBehaviour:
@@ -11434,7 +11434,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1431382365}
-        m_TargetAssemblyTypeName: SelectKey, Assembly-CSharp
+        m_TargetAssemblyTypeName: SelectKey2, Assembly-CSharp
         m_MethodName: SelectMe
         m_Mode: 1
         m_Arguments:
@@ -11849,7 +11849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274477263abb648af9f9eb3f7e397c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Scene_4
+  sceneName: Scene_3
 --- !u!1 &1475924046
 GameObject:
   m_ObjectHideFlags: 0
