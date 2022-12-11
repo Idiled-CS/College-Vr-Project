@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SelectKey : MonoBehaviour
 {
-    [SerializeField] private Animator doorAnimation;
+    [SerializeField] private Animator Chest_Lid;
     [SerializeField] private GameObject key;
     // Start is called before the first frame update
     void Start()
@@ -16,8 +16,9 @@ public class SelectKey : MonoBehaviour
     public void SelectMe()
     {
         GameObject.Destroy(key);
-        doorAnimation.Play("doorOpen", 0, 0.0f);
+        Chest_Lid.Play("doorOpen", 0, 0.0f);
         Debug.Log("KEY SELECTED");
 
     }
+
 }

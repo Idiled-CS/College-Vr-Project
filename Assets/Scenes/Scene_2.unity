@@ -11551,7 +11551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54129e42262db4d6286d52c5f5c0990b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorAnimation: {fileID: 1456707638}
+  Chest_Lid: {fileID: 0}
   key: {fileID: 1431382363}
 --- !u!114 &1431382366
 MonoBehaviour:
@@ -12012,7 +12012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274477263abb648af9f9eb3f7e397c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: temp
+  sceneName: Scene_3
 --- !u!1 &1475924046
 GameObject:
   m_ObjectHideFlags: 0
